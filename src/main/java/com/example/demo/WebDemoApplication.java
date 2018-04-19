@@ -10,7 +10,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@SpringBootApplication
+
 @ComponentScan({"com.example.demo", "com.example.controllers"})
 @EntityScan("com.example.entities")
 @EnableJpaRepositories("com.example.repositories")
