@@ -45,7 +45,7 @@ class Add extends Component{
 				category: parseInt(data.get('category_id'))
 			};
 			console.log(json_obj_data);
-			fetch('http://localhost:8081/demo/products/',{
+			fetch('http://167.99.109.195:9090/demo-0.0.1-SNAPSHOT/products/',{
 				method: 'POST',
 				headers:{
 					Accept: "application/json",

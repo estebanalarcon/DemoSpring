@@ -21,7 +21,7 @@ class Item extends Component{
 
 	deleteProduct(id){
 		console.log(id);
-		const url = 'http://localhost:8081/demo/products/'+id; 
+		const url = 'http://167.99.109.195:9090/demo-0.0.1-SNAPSHOT/products/'+id; 
 		fetch(url,{
 			method: 'DELETE',
 		}).then(response => response.json())
@@ -29,7 +29,7 @@ class Item extends Component{
 	}
 
 	editProduct(id){
-		const url = 'http://localhost:8081/demo/products/'+id;
+		const url = 'http://167.99.109.195:9090/demo-0.0.1-SNAPSHOT/products/'+id;
 		fetch(url,{
 			method:'GET'
 		})

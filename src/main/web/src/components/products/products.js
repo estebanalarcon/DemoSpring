@@ -25,7 +25,7 @@ class Product extends Component{
 	}
 
 	componentDidMount(){
-		fetch('http://localhost:8081/demo/products/all')
+		fetch('http://167.99.109.195:9090/demo-0.0.1-SNAPSHOT/products/all')
 			.then(res => res.json())
 			.then(prod => this.setState({ prod: prod }));
 			console.log(this.state.prod);

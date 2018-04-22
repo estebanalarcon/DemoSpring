@@ -64,7 +64,7 @@ class Edit extends Component{
 				category: parseInt(data.get('category_id'))
 			};
 			console.log(json_obj_data); 
-			const url = 'http://localhost:8081/demo/products/' + this.props.code_1; 
+			const url = 'http://167.99.109.195:9090/demo-0.0.1-SNAPSHOT/products/' + this.props.code_1; 
 			fetch(url,{
 				method: 'PUT',
 				headers:{
