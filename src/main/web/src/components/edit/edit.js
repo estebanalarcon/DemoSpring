@@ -73,7 +73,6 @@ class Edit extends Component{
 				},
 				body: JSON.stringify(json_obj_data)
 			});
-			window.location.reload();
 			
 		}
 	render(){
