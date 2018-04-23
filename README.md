@@ -9,9 +9,9 @@
 ##Ubicacion FrontEnd: DemoSpring/src/main/web
 ##Ubicacion BackEnd: DemoSpring
 
-#Ejecucion Spring
-##gradle bootrun
+#Ejecucion Spring:
+gradle bootrun
 
-#Ejecucion de test en Spring
-##gradle test
+#Ejecucion de test en Spring:
+gradle test
 
